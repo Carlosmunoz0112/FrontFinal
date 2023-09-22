@@ -63,7 +63,7 @@ document.getElementById('miFormulario').addEventListener('submit', function (eve
     };
 
     // Realiza la solicitud POST a la API
-    fetch("https://apifinal19.onrender.com/api/productos", {
+    fetch("https://backend-1f71.onrender.com/api/productos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

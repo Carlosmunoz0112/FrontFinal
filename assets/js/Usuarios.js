@@ -23,7 +23,7 @@
   
   
 
-  const url = "https://apifinal19.onrender.com/api/productos";
+  const url = "https://backend-1f71.onrender.com/api/productos";
 
 const eliminarproducto = (_id) => {
   return fetch(`${url}/${_id}`, {

@@ -40,7 +40,7 @@ const userId = urlParams.get('id');
 
 //*API
 
-const api = `https://apifinal19.onrender.com/api/productos/${userId}`
+const api = `https://backend-1f71.onrender.com/api/productos/${userId}`
 
 fetch(api)
   .then((response) => response.json())
@@ -82,7 +82,7 @@ formulario.addEventListener('submit', function (e) {
     "descripcion": descripcion
   };
 
-  fetch(`https://apifinal19.onrender.com/api/productos/${userId}`, {
+  fetch(`https://backend-1f71.onrender.com/api/productos/${userId}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
